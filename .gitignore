@@ -1,0 +1,5 @@
+*~
+.env
+*.bak
+*.py[c]
+*.egg-info
