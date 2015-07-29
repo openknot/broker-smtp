@@ -12,23 +12,23 @@ def parse_requirements(filename):
 
 
 setup(
-    name="smtpbroker",
+    name="broker-smtp",
     version="0.0.1",
     description="Simple SMTP Broker",
     long_description=open("README.rst", "r").read(),
     author="James Mills",
     author_email="James Mills, prologic at shortcircuit dot net dot au",
-    url="https://github.com/openknot/smtpbroker",
-    download_url="https://github.com/openknot/smtpbroker/archive/master.zip",
+    url="https://github.com/openknot/broker-smtp",
+    download_url="https://github.com/openknot/broker-smtp/archive/master.zip",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 2.7",
     ],
     license="TBA",
-    keywords="smtp smtpbroker",
+    keywords="smtp broker",
     platforms="POSIX",
     packages=find_packages("."),
     install_requires=list(parse_requirements("requirements.txt")),
-    scripts=["smtpbroker.py"],
+    scripts=["broker-smtp.py"],
     zip_safe=False
 )

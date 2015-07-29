@@ -1,4 +1,4 @@
-smtpbroker:
+broker-smtp:
     build: .
     ports:
         - "25:25"
