@@ -213,7 +213,7 @@ class SMTPChannel(Component):
         self.__rcpttos.append(address)
         self.push("250 Ok")
 
-    def smtp_RSET(self, arg):
+    def smtp_RSET(self, arg=None):
         if arg:
             self.push("501 Syntax: RSET")
             return
