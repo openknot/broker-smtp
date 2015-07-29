@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 
-"""An RFC 2821 SMTP Server"""
+"""SMTP Broker"""
 
 
 from __future__ import print_function
